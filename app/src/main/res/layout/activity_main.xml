@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context="com.anb.amrapalinoticeboard.MainActivity">
+
+
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/myLayout"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Amrapali"
+                android:textSize="50dp"
+                android:textAllCaps="true"
+                android:gravity="center"
+                android:textColor="@color/black"
+
+                 />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Group Of Institute"
+                android:gravity="center"
+                android:textSize="30dp"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                />
+
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/corner"
+                android:gravity="center"
+                android:onClick="bca"
+                android:text="BCA Notice Board"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/corner"
+                android:gravity="center"
+                android:onClick="bba"
+                android:text="BBA Notice Board"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/corner"
+                android:gravity="center"
+                android:onClick="btech"
+                android:text="B.Tech Notice Board"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/corner"
+                android:gravity="center"
+                android:onClick="bhm_ku"
+                android:text="BHM (KU) Notice Board"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/corner"
+                android:gravity="center"
+                android:onClick="bhm_utu"
+                android:text="BHM (UTU) Notice Board"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:fabSize="normal"
+        android:onClick="noti"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        app:layout_anchor="@id/myLayout"
+        app:layout_anchorGravity="bottom|right"
+        app:srcCompat="@drawable/ic_notifications_none_black" />
+
+
+</android.support.design.widget.CoordinatorLayout>

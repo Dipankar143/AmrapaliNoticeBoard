@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#247fd9</color>
+    <color name="colorPrimaryDark">#2d6eae</color>
+    <color name="colorAccent">#1e1d1e</color>
+    <color name="black">#000</color>
+    <color name="white">#fff</color>
+    <color name="upper_text">#0096A6</color>
+    <color name="launcher_text">#4288c1</color>
+    <color name="noti">#1abc9c</color>
+    <color name="time">#3d9bc4</color>
+</resources>
